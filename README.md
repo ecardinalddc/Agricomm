@@ -1,8 +1,3 @@
----
-layout: default
-title: AgriComm Protocol
----
-
 # AgriComm Protocol
 
 _Enabling seamless communication between autonomous farm vehicles._
