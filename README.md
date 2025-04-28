@@ -1,8 +1,3 @@
----
-layout: default
-title: AgriComm Protocol
----
-
 <table>
 <tr>
 <td style="width: 25%; vertical-align: top; padding-right: 20px;">
