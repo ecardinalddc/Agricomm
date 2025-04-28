@@ -1,47 +1,74 @@
----
-layout: default
-title: AgriComm Protocol
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Agricomm Protocol</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="An open protocol enabling communication and interoperability between autonomous farm equipment.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css" media="(prefers-color-scheme: dark)">
+  <!-- index.html -->
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      loadSidebar: true,
+      loadNavbar: true,
+      logo: '/images/logo.png',
+      nameLink: "/docs/slug",
+      name: '',
+      repo: '',
+      subMaxLevel: 2,
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-diff.min.js"></script>
 
-<div style="display: flex; min-height: 80vh;">
-  <nav style="width: 250px; padding: 20px; background-color: #f7f7f7;">
-    <h3>Menu</h3>
-    <ul style="list-style: none; padding: 0;">
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/features.html">Features</a></li>
-      <li><a href="#get-involved">Get Involved</a></li>
-    </ul>
-  </nav>
-
-  <main style="flex: 1; padding: 20px;">
-    <h1>AgriComm Protocol</h1>
-    <p><em>Enabling seamless communication between autonomous farm vehicles.</em></p>
-
-    <section>
-      <h2>What is AgriComm?</h2>
-      <p>
-        AgriComm (Agricultural Communication Protocol) allows tractors, harvesters, drones, and irrigation robots to communicate and coordinate operations.
-      </p>
-    </section>
-
-    <section>
-      <h2>Why AgriComm?</h2>
-      <ul>
-        <li>Real-time synchronization between vehicles</li>
-        <li>Task delegation based on capacity</li>
-        <li>Secure multi-modal data sharing</li>
-        <li>Fleet-wide awareness and optimization</li>
-      </ul>
-    </section>
-
-    <section id="get-involved">
-      <h2>Get Involved</h2>
-      <p>Visit our <a href="https://ecardinalddc.github.io/agricomm">GitHub</a> page to contribute and learn more.</p>
-    </section>
-  </main>
-</div>
-
-
-<footer>
-  <p>&copy; 2025 AgriComm Project. All rights reserved.</p>
-</footer>
+  <style>
+    .bottom-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .next-button {
+      color: #fff !important;
+      text-decoration: none !important;
+      background-color: #1a73e8;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: .6px;
+      line-height: 24px;
+      padding-bottom: 6px;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 6px;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+    }
+    .back-button {
+      color: #1a73e8 !important;
+      text-decoration: none !important;
+      background-color: #fff;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: .6px;
+      line-height: 24px;
+      padding-bottom: 6px;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 6px;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+    }
+  </style>
+</body>
+</html>
